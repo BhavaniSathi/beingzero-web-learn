@@ -9,7 +9,7 @@ app.get("/home", function(req, res){
     res.send("Welcome to home page");
 })
 app.get("/resume", function(req, res){
-    let f=__dir+"/resume.html";
+    let f=__dirname+"/resume.html";
     res.send(f);
 })
  
