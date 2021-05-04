@@ -1,7 +1,7 @@
 const express = require('express');
  
 const app = express();
- 
+app.use(express.static("frontend"))
 app.get("/", function(req, res){
     res.send("Welcome to Sweety's page");
 })
