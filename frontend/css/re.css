@@ -1,4 +1,55 @@
-h1{
-    color:red;
-    font-size: large;
+.hh {
+    float:right;
+    padding-top: 25px;
+}
+.hh a{
+    color:black;
+    text-decoration: none;
+}
+.first{
+    width:100%;
+    text-align: center;
+}
+.ts{
+    float:right;
+    text-decoration: none;
+}
+.rr a{
+    text-decoration: none;
+    color:black;
+}
+.ts a{
+    text-decoration: none;
+    color:black;
+}
+input{
+    border-radius:50px 50px 50px 50px;
+    display: block;
+    margin-left: auto ;
+    margin-right: auto;
+}
+a:hover{
+    text-decoration: underline;
+}
+.bn{
+    display: block;
+    margin-left: auto ;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 25px;
+}
+.rr{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+     width: 100%;
+    background-color:lightgrey;
+}
+img{
+    display: block;
+    margin-left: auto ;
+    margin-right: auto;
+    padding-top: 150px;
+    padding-left: 140px;
+    padding-bottom: 25px;
 }
