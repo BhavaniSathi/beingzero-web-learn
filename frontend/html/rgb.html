@@ -5,22 +5,25 @@
     </head>
     <body >
         <script src="/js/rgb.js"></script>
-        <div id="red">
             <legend>
-                <fieldset>
+                <fieldset id="red">
                    <b>rgb</b> 
                 </fieldset>
             </legend>
-        </div>   
         <br>
         <div class="ff">
          <pre class="dd">
-    RED           GREEN          BLUE</pre> 
-           <input type="range" min="0" max="255"value="0"onchange="rshow(value.this)">
+ RED         GREEN        BLUE</pre> 
+           <input type="range" min="0" max="255"value="0"onchange="rshow(this.value)">
            &nbsp;&ensp;&ensp;
-           <input type="range" min="0" max="255"value="0"onchange="gshow(value.this)">
+           <input type="range" min="0" max="255"value="0"onchange="gshow(this.value)">
            &nbsp;&ensp;&ensp;
-           <input type="range" min="0" max="255"value="0"onchange="bshow(value.this)">
+           <input type="range" min="0" max="255"value="0"onchange="bshow(this.value)">
+           <div style="padding:0px 400px;">
+            <p id="reddis"></p>
+            <p id="grdis"></p>
+            <p id="bldis"></p>
+           </div>
         </div>
     </div>
     </body>

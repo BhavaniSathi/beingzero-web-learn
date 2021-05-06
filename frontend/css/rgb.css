@@ -8,14 +8,29 @@
 .dd{
     font-size: x-large;
 }
-   #red fieldset{
-        color:solid black;
-        text-align:center;
+   fieldset{
+       text-align:center;
         width:40%;
         padding-top:20px;
         padding-bottom:30px;
+        background-color:black;
     }
-   #red legend{
+   legend{
         padding-left: 430px;
         margin-top: 150px;
     } 
+#reddis{
+    margin-right: 30px;
+    width: 100px;
+    float:left;
+}
+#grdis{
+    margin-right: 30px;
+    width: 100px;
+    float:left;
+}
+#bldis{
+    margin-right: 30px;
+    width: 100px;
+    float:left;
+}
