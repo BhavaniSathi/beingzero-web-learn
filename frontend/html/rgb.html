@@ -3,24 +3,25 @@
     <head>
    <link rel="stylesheet" href="/css/rgb.css">
     </head>
-    <body>
-        <script src=/js/rgb.js></script>
-        <legend>
-            <fieldset>
-               <b>rgb</b> 
-            </fieldset>
-        </legend>
-          
-    <br>
-    <div class="ff">
-     <pre class="dd">
-RED           GREEN           BLUE</pre>  
-       <input type="range" min="0" max="255" >
-       &nbsp;&ensp;&ensp;
-       <input type="range" min="0" max="255">
-       &nbsp;&ensp;&ensp;
-       <input type="range" min="0" max="255">
-       <br>
+    <body >
+        <script src="/js/rgb.js"></script>
+        <div id="red">
+            <legend>
+                <fieldset>
+                   <b>rgb</b> 
+                </fieldset>
+            </legend>
+        </div>   
+        <br>
+        <div class="ff">
+         <pre class="dd">
+    RED           GREEN          BLUE</pre> 
+           <input type="range" min="0" max="255"value="0"onchange="rshow(value.this)">
+           &nbsp;&ensp;&ensp;
+           <input type="range" min="0" max="255"value="0"onchange="gshow(value.this)">
+           &nbsp;&ensp;&ensp;
+           <input type="range" min="0" max="255"value="0"onchange="bshow(value.this)">
+        </div>
     </div>
     </body>
 </html>

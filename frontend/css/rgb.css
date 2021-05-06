@@ -1,14 +1,4 @@
-fieldset{
-    color:solid black;
-    text-align:center;
-    width:40%;
-    padding-top:20px;
-    padding-bottom:30px;
-}
-legend{
-    padding-left: 430px;
-    margin-top: 150px;
-}
+
 .ff{
     padding-top:50px;
     padding-bottom:20px;
@@ -18,3 +8,14 @@ legend{
 .dd{
     font-size: x-large;
 }
+   #red fieldset{
+        color:solid black;
+        text-align:center;
+        width:40%;
+        padding-top:20px;
+        padding-bottom:30px;
+    }
+   #red legend{
+        padding-left: 430px;
+        margin-top: 150px;
+    } 
